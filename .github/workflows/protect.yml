@@ -1,0 +1,15 @@
+name: Protect Main Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  protect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prevent Modifications
+        run: |
+          echo "🚨 Modification detected! Changes are not allowed on the main branch."
+          exit 1
