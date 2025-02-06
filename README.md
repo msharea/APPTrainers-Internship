@@ -10,4 +10,5 @@ This repository contains the projects and assignments completed during my intern
 - SQL & Data Visualization  
 
 ## 📈 Projects  
-- 📊 HR-ANALYTICS-DASHBOARD
+- 📊 HR-ANALYTICS-DASHBOARD using Power PI
+- 🚦 Traffic Analysis Project using Python
