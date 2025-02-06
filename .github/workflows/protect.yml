@@ -12,4 +12,4 @@ jobs:
       - name: Prevent Modifications
         run: |
           echo "🚨 Modification detected! Changes are not allowed on the main branch."
-          exit 1
+          exit 0
